@@ -1,0 +1,181 @@
+.booking {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(229, 231, 235);
+    width: 120%;
+    position: sticky;
+    top: 80px;
+    background-color: #fff;
+  }
+  
+  .booking__top h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .booking__top span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #6c757d;
+  }
+  
+  .booking__top span i {
+    color: #ffc107;
+    margin-right: 0.5rem;
+  }
+  
+  .booking__form {
+    padding-top: 2rem;
+  }
+  
+  .booking__form h5 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .booking__form input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    color: #495057;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .booking__form input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .booking__info-form {
+    padding: 1rem;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 0.5rem;
+  }
+  
+  .booking__bottom {
+    margin-top: 1rem;
+  }
+  
+  .booking__bottom li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .booking__bottom li h5,
+  .booking__bottom li span {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .total h5,
+  .total span {
+    font-size: 1.1rem;
+    color: #343a40;
+    font-weight: 700;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+  }
+  
+  .primary__btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .primary__btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .secondary__btn {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+  }
+  
+  .secondary__btn:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+
+  .confirmation-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .confirmation-dialog p {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .confirmation-dialog button {
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+  }
+  
+  .confirmation-dialog button.cancel-btn {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+  }
+  
+  .confirmation-dialog button.cancel-btn:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
+  .confirmation-dialog button.confirm-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .confirmation-dialog button.confirm-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  
+  .generate-otp-btn{
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    background-color: #ea4c21;
+    border-color: #28a745;
+    color: #fff;
+  }
+  
+  .generate-otp-btn:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  

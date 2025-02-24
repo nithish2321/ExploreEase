@@ -1,0 +1,193 @@
+import Ayyodhya from "../images/Ayyodhya.jpg";
+import GoaBeach from "../images/GoaBeach.jpeg";
+import Kashi from "../images/Kashi.jpg";
+import KashmirValley from "../images/KashmirValley.jpg";
+import Ladak from "../images/Ladak.jpg";
+import Munnar from "../images/Munnar.jpg";
+import TajMahal from "../images/TajMahal.jpg";
+import Thanjaur from "../images/Thanjaur.jpg";
+
+const tours = [
+  {
+    "id" : "01",
+    "title": "Majestic Taj Mahal Journey",
+    "city": "Agra",
+    "distance":850,
+    "address": "Agra, Uttar Pradesh 282001",
+    "price": 36999,
+    "maxGroupSize": 15,
+    "itinerary": "Embark on the Majestic Taj Mahal Journey, a 3-day, 2-night expedition to the captivating city of Agra, India. Begin with a visit to the historic Agra Fort, followed by an exploration of local markets and indulgence in authentic Mughlai cuisine. Day two unveils the highlight of the trip with a dawn visit to the legendary Taj Mahal, complemented by a guided tour and a serene breakfast overlooking its splendor. Mehtab Bagh and optional stops at Itmad-ud-Daulah's Tomb add further enchantment. On the final day, explore the architectural marvels of Fatehpur Sikri before departing with cherished memories of this majestic experience. This package includes accommodation, guided tours, transport, and meals, promising an unforgettable immersion into India's rich cultural heritage.",
+    "reviews": [
+      {
+        name: "siva",
+        rating: 4.5,
+      },
+      {
+        name: "Priyanka mohan",
+        rating: 5, 
+      }
+    ],
+    avgRating: 4.5,
+    "photo": TajMahal ,
+    "featured": true
+  },
+  {
+    "id" : "02",
+    "title": "Sun-Kissed Goa Adventure",
+    "city": " Panaji",
+    "distance": 800,
+    "address": "Goa, India",
+    "price": 50000,
+    "maxGroupSize": 10,
+    "itinerary": "Embark on an exhilarating journey with our Sun-Kissed Goa Adventure package, spanning 7 days and 6 nights in the enchanting coastal paradise of Goa, India. Upon arrival at Goa International Airport, guests are whisked away to luxurious accommodations, setting the stage for a week of unparalleled exploration and relaxation. The itinerary is thoughtfully crafted to offer a perfect blend of adventure, culture, and leisure. From thrilling beach activities at Calangute, Baga, and Anjuna to immersive cultural experiences at historic landmarks and bustling markets, every day promises new discoveries and memorable moments. Guests can indulge in adrenaline-pumping adventures like trekking through lush jungles, zip-lining over breathtaking landscapes, and diving into the azure waters to explore vibrant marine life. For those seeking serenity, leisurely beach days, rejuvenating spa treatments, and romantic sunset cruises provide the perfect escape. Delightful evenings are spent savoring traditional Goan cuisine, dancing to live music, and experiencing the vibrant nightlife scene. With a perfect blend of excitement and relaxation, our Sun-Kissed Goa Adventure package ensures an unforgettable holiday experience in this tropical paradise.",
+    "reviews": [
+      {
+        name: "Prem g",
+        rating: 4,
+      },
+      {
+        name: "Vj sidhu vlogs",
+        rating: 5, 
+      }
+    ],
+    avgRating: 4,
+    "photo": GoaBeach,
+    "featured": true
+  },
+  {
+    "id" : "03",
+    "title": "Enchanting Kashmir Valley Expedition",
+    "city": "Srinagar",
+    "distance": 2800,
+    "address": "Srinagar, Jammu and Kashmir, India",
+    "price": 65000,
+    "maxGroupSize": 10,
+    "itinerary": "Embark on a captivating journey through the stunning Kashmir Valley, where every moment unfolds a new vista of natural splendor and cultural richness. Day 1 begins with your arrival in Srinagar, where you'll be enchanted by the serene beauty of Dal Lake. Day 2 invites you to explore the exquisite Mughal Gardens, followed by a leisurely stroll through the vibrant old city area. On Day 3, venture to Gulmarg, the 'Meadow of Flowers', for panoramic views and exhilarating adventures like the Gondola ride. Day 4 takes you to Pahalgam, the 'Valley of Shepherds', where you can immerse yourself in the breathtaking landscapes and optional activities like river rafting. Spend Day 5 leisurely exploring Pahalgam's charms. Day 6 sees your return to Srinagar, allowing time for shopping and relaxation by Dal Lake. On Day 7, journey to Sonamarg, the 'Meadow of Gold', for a day amidst alpine meadows and glaciers. Finally, on Day 8, bid farewell to this paradise, departing from Srinagar Airport with cherished memories of your Kashmir Valley exploration.",
+    "reviews": [
+      {
+        name: "Vijay deverkonda",
+        rating: 4.5,
+      },
+      {
+        name: "Samantha",
+        rating: 4, 
+      }
+    ],
+    avgRating: 5,
+    "photo": KashmirValley,
+    "featured": true
+  },
+  {
+      "id" : "04",
+      "title": "Munnar Hill Station",
+      "city": "Munnar",
+      "distance": 580,
+      "address": "Munnar, Kerala, India",
+      "price": 8000,
+      "maxGroupSize": 12,
+      "itinerary": "Embark on an unforgettable journey through the breathtaking landscapes of Munnar with our meticulously crafted tour exploration plan spanning over several days. Day 1 welcomes you with the serene charm of Munnar as you settle into your cozy accommodations amidst the misty hills. On Day 2, delve into the heart of Munnar's tea country with a visit to lush tea plantations, where you'll learn about the art of tea cultivation and savor the freshest brews. Day 3 invites you to explore the pristine beauty of Mattupetty Dam, where shimmering waters mirror the verdant surroundings, followed by a visit to the enchanting Echo Point. On Day 4, venture into the wild at Eravikulam National Park, home to the endangered Nilgiri Tahr, and trek through its verdant trails. Day 5 promises an exhilarating adventure as you journey to the top of Anamudi, South India's highest peak, offering panoramic vistas of the majestic Western Ghats. Finally, on Day 6, bid farewell to Munnar, carrying with you cherished memories of its lush landscapes, serene valleys, and warm hospitality.",
+      "reviews": [
+        {
+          name: "Joe",
+          rating: 3.5,
+        },
+        {
+          name: "Sujithra",
+          rating: 5, 
+        }
+      ],
+      avgRating:4,
+      "photo": Munnar,
+      "featured": true
+  },
+  {
+          "id" : "05",
+          "title": "Ayodhya",
+          "city": "Ayodhya",
+          "distance": 1800,
+          "address": "Ayodhya, Uttar Pradesh, India",
+          "price": 15000,
+          "maxGroupSize": 15,
+          "itinerary": "Embark on a sacred journey to Ayodhya, the legendary birthplace of Lord Rama, with our meticulously planned exploration itinerary spanning several days. Day 1 welcomes you to the spiritual heart of Ayodhya as you settle into your accommodations amidst the serene surroundings. On Day 2, immerse yourself in the divine aura of Ram Janmabhoomi, where the historic site of Lord Rama's birth is located, and pay homage at the revered Hanuman Garhi temple. Day 3 invites you to explore the sacred banks of the Sarayu River, where you can take a serene boat ride and visit the Kanak Bhawan temple dedicated to Lord Rama and Goddess Sita. On Day 4, delve deeper into Ayodhya's rich history with a visit to the ancient temples of Nageshwarnath and Dashrath Mahal, steeped in mythological significance. Day 5 offers a glimpse into Ayodhya's cultural heritage with a stroll through the vibrant markets and a taste of traditional cuisine. Finally, on Day 6, bid farewell to Ayodhya, carrying with you the blessings of Lord Rama and cherished memories of your spiritual journey through this sacred city.",
+          "reviews": [
+            {
+              name: "Modiji",
+              rating: 5,
+            }
+          ],
+          avgRating: 5,
+          "photo": Ayyodhya,
+          "featured": true
+        
+  },
+  {
+      "id" : "06",
+      "title": "Brihadeeswarar Temple",
+      "city": "Thanjavur",
+      "distance": 350,
+      "address": "Thanjavur, Tamil Nadu, India",
+      "price": 8000,
+      "maxGroupSize": 8,
+      "itinerary": "Brihadeeswarar Temple, also known as the Big Temple, is one of the largest temples in India and a UNESCO World Heritage Site. It is renowned for its architectural grandeur, intricate carvings, and rich history dating back to the Chola dynasty. Visitors can marvel at the majestic vimana (tower) and explore the expansive temple complex, experiencing the spiritual and cultural significance of this ancient marvel.",
+      "reviews": [
+      {
+        name: "Raja",
+        rating: 5,
+      },
+      {
+        name: "Aadhithya varman",
+        rating: 5, 
+      }],
+      avgRating:4,
+      "photo": Thanjaur,
+      "featured": true
+  },
+  {
+    "id" : "07",
+    "title": "Varanasi - The Spiritual Capital",
+    "city": "Varanasi",
+    "distance": 13000,
+    "address": "Varanasi, Uttar Pradesh, India",
+    "price": 20000,
+    "maxGroupSize": 10,
+    "itinerary": "Varanasi, situated on the banks of the Ganges River, is one of the oldest continually inhabited cities in the world. It is a significant religious center for Hindus, known for its ghats, temples, and spiritual atmosphere.",
+    "reviews": [
+      {
+        name: "Ranvir kapoor",
+        rating: 4.5,
+      },
+      {
+        name: "Aali bhatt",
+        rating: 5, 
+      }
+    ],
+    avgRating: 3,
+    "photo": Kashi,
+    "featured": true
+  },
+  {
+      "id" : "08",
+      "title": "Leh-Ladakh",
+      "city": "Leh",
+      "distance": 2700,
+      "address": "Leh, Ladakh, India",
+      "price": 60000,
+      "maxGroupSize": 10,
+      "itinerary": "Leh-Ladakh is a region in the Indian state of Jammu and Kashmir, known for its stunning landscapes, Buddhist monasteries, and adventurous activities like trekking and river rafting.",
+      "reviews": [
+        {
+          name: "Ajith",
+          rating: 5,
+        },
+        {
+          name: "TTF Vasan",
+          rating: 5, 
+        }
+      ],
+      "avgRating": 4,
+      "photo": Ladak,
+      "featured": true
+  }
+];
+
+export default tours;

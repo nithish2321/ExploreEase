@@ -1,0 +1,156 @@
+/* Username.module.css */
+
+.glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .glass:hover {
+    transform: translateY(-5px);
+  }
+  
+  .profile_img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+  }
+  
+  .profile_img:hover {
+    transform: scale(1.05);
+  }
+  
+  
+
+  /* Username.module.css */
+
+  .textbox {
+    background: rgba(223, 230, 232, 0.082);
+    border: none;
+    border-radius: 30px; /* Adding rounded corners */
+    padding: 12px 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 80%;
+    outline: none;
+    color: #070707;
+    transition: all 0.3s ease;
+    font-size: 1.3rem;
+    text-align: center;
+    border: 2px solid #00000068; 
+  }
+  
+  .textbox::placeholder {
+    color: rgba(3, 3, 3, 0.5);
+  }
+  
+  .textbox:focus {
+    background: rgba(255, 255, 255, 0.15); /* Change background color on focus */
+    border: 2px solid #38a3a5; /* Highlight border on focus */
+  }
+  
+  .btn {
+    background: linear-gradient(90deg, #4fb4e3, #81caf1); /* Gradient background */
+    color: #fff;
+    border: none;
+    padding: 14px 24px; /* Increased padding */
+    cursor: pointer;
+    border-radius: 30px; /* Rounded corners */
+    transition: all 0.3s ease;
+    font-size: 1.1rem; /* Updated font size */
+    text-transform: uppercase; /* Uppercase text */
+    width: 60%;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px); /* Button lift effect on hover */
+    box-shadow: 0 4px 6px rgba(51, 46, 46, 0.306); /* Added shadow on hover */
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  
+  
+  .title {
+    text-align: center;
+  }
+  
+  .title h4 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .title span {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    width: 70%;
+    line-height: 1.5;
+  }
+  
+  .text-gray-500 {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .text-red-500 {
+    color: #f56565;
+  }
+
+  /* Profile.module.css */
+
+.profile {
+  display: inline-block;
+  cursor: pointer; /* Change cursor to pointer when hovering over the profile image */
+}
+
+.fileInput {
+  display: none; /* Hide the file input */
+}
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 768px) {
+    .glass {
+      padding: 30px;
+    }
+  
+    .profile_img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .title h4 {
+      font-size: 2rem;
+    }
+  
+    .title span {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .glass {
+      padding: 20px;
+    }
+  
+    .profile_img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .title h4 {
+      font-size: 1.5rem;
+    }
+  
+    .title span {
+      font-size: 0.9rem;
+    }
+  }
+  

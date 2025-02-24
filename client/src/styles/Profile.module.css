@@ -1,0 +1,85 @@
+/* Profile.module.css */
+
+.glass {
+    background: #f9f9f9;
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .glass:hover {
+    transform: translateY(-5px);
+  }
+  
+  .profile_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+  }
+  
+  .profile_img:hover {
+    transform: scale(1.05);
+  }
+  
+  .textbox {
+    background: rgba(229, 236, 238, 0.082);
+    border: none;
+    border-radius: 30px; 
+    padding: 12px 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    outline: none;
+    color: #070707;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    border: 2px solid #00000068; 
+    align-self: center;
+  }
+  
+  .textbox::placeholder {
+    color: rgba(3, 3, 3, 0.5);
+  }
+  
+  .textbox:focus {
+    background: rgba(255, 255, 255, 0.15); /* Change background color on focus */
+    border: 2px solid #34a5eb; /* Highlight border on focus */
+  }
+  
+  .btn {
+    background: linear-gradient(90deg, #38a3a5, #57cc99);
+    color: #fff;
+    border: none;
+    padding: 14px 24px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  
+  /* Profile.module.css */
+
+.profileLabel {
+    display: inline-block;
+    cursor: pointer; /* Change cursor to pointer when hovering over the profile image */
+  }
+  
+.fileInput {
+    display: none; /* Hide the file input */
+  }
+  

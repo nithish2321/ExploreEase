@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <style>
+           /* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    padding: 0px;
+}
+
+/* Container styling */
+#chat-container {
+    max-width: 1150px;
+    max-height: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+   
+}
+
+/* Chat box styling */
+#chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-bottom: 10px; /* Add some padding at the bottom to prevent overlap with the input */
+}
+
+/* Message box styling */
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* User message styling */
+.user-message {
+    text-align: right;
+}
+
+/* Bot message styling */
+.bot-message {
+    text-align: left;
+}
+
+/* Change input placeholder color */
+#user-input::placeholder {
+    color: #888;
+}
+
+/* Input styling */
+#user-input {
+    width: calc(100% - 70px); /* Adjust input width considering the width of the button */
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 60px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    
+    <div id="chat-container">
+        <div id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        function sendMessage() {
+        var user_input = document.getElementById("user-input").value;
+        document.getElementById("user-input").value = "";
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/get_answer", true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var response = JSON.parse(xhr.responseText);
+                document.getElementById("chat-box").innerHTML += "<div class='message user-message clearfix'><b>You: </b>" + user_input + "</div>";
+                document.getElementById("chat-box").innerHTML += "<div class='message bot-message clearfix'><b>Mr.Eagle: </b>" + "<pre>"+response.bot_response +"</pre>"+ "</div>";
+            }
+        };
+        xhr.send("user_input=" + user_input);
+    }
+    </script>
+</body>
+</html>
+
+

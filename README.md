@@ -32,6 +32,16 @@ user's can able to
 
       In that they can proceed with the payment
 
-The source code of this project is uploaded in this google drive.
+This project helped me to learn the key concepts of CRUD operations to build an en·ter·prise applications in MongoDB.
+
+Learnt the concepts of api creation using the express to deal with the MongoDB data, automate the mail services, OTP creation and verification.
+
+For authentication we also used JWT(Json Web Tokens).
+
+We used react to make our frontend more Responsible. 
+
+All together I have done the MERN Stack project.
+
+The source code of this project is uploaded in this google drive link.
 
 **drive link**:https://drive.google.com/drive/folders/1_FBEC0hxPDHjaMGisa8uZxvoRt7SyPPP?usp=sharing

@@ -20,21 +20,21 @@ user's can able to
       
       They will recive the automatic generated mail upon the successfull regiteration
 
-      update their profile
+      Update their profile
 
-      search the tour package in map searching engin
+      Search tour packages via a map-based engine
 
-      ask basic quries with chatbot Assistant
+      Ask basic quries with chatbot Assistant
 
-      view the Tour packages
+      View the Tour packages
 
-      book the tour package they need
+      Book the tour package they need
 
-      while booking they will recive the automatic generated OTP
+      While booking they will recive the automatic generated OTP
 
-      they must be verify with that to procced the booking
+      They must be verify with that to procced the booking
 
-      view the booking history of the individual user's in their profile section
+      View the booking history of the individual user's in their profile section
 
       In that they can proceed with the payment
 

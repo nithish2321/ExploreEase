@@ -20,6 +20,10 @@ user's can able to
 
       update their profile
 
+      search the tour package in map searching engin
+
+      ask basic quries with chatbot Assistant
+
       view the Tour packages
 
       book the tour package they need
@@ -44,4 +48,4 @@ All together I have done the MERN Stack project.
 
 The source code of this project is uploaded in this google drive link.
 
-**drive link**:https://drive.google.com/drive/folders/1_FBEC0hxPDHjaMGisa8uZxvoRt7SyPPP?usp=sharing
+

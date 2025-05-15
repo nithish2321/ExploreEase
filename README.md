@@ -1,6 +1,6 @@
 # ExploreEase
 
-Demo[(https://drive.google.com/file/d/1j-g3AKbz6F7YJVe1wYhuFuIuVRgA2PKC/view?usp=sharing)]
+[Demo Video](https://drive.google.com/file/d/1j-g3AKbz6F7YJVe1wYhuFuIuVRgA2PKC/view?usp=sharing)
 
 ExploreEase is a tour package booking web platform in which 
 

@@ -1,0 +1,180 @@
+/* Booking Management Container */
+.booking-management-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  max-width: 100%;
+  margin-left: 20px; /* Adjusted margin */
+}
+
+.booking-management-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Form elements */
+.booking-management-container input,
+.booking-management-container select,
+.booking-management-container textarea {
+  background: rgba(223, 230, 232, 0.082);
+  border: none;
+  border-radius: 30px;
+  padding: 12px 20px;
+  margin: 10px 0;
+  width: calc(100% - 40px); /* Adjusted width */
+  display: block; /* Display as block element */
+  outline: none;
+  color: #070707;
+  transition: all 0.3s ease;
+  font-size: 1.3rem;
+}
+
+/* Textarea specific styles */
+.booking-management-container textarea {
+  height: 100px;
+}
+
+/* Checkbox styles */
+.booking-management-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Placeholder color */
+.booking-management-container input::placeholder,
+.booking-management-container textarea::placeholder {
+  color: rgba(3, 3, 3, 0.5);
+}
+
+/* Focus styles */
+.booking-management-container input:focus,
+.booking-management-container textarea:focus,
+.booking-management-container select:focus {
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid #38a3a5;
+}
+
+/* Button styles */
+.booking-management-container button {
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+/* Delete button */
+.delete-button {
+  background: #f56565;
+  color: #fff;
+  
+}
+
+/* Edit button */
+.edit-button {
+  background: #38bcf0;
+  color: #fff;
+  border: None;
+  padding : 10px 20px;
+}
+.delete-button1{
+  background: #d6dfdc;
+  color: #e82323;
+  border: None;
+  padding : 10px 20px;
+}
+/* Button hover styles */
+.booking-management-container button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(51, 46, 46, 0.306);
+}
+
+/* Button active styles */
+.booking-management-container button:active {
+  transform: scale(0.95);
+}
+
+/* Checkbox styles */
+.booking-management-container input[type="checkbox"] {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+/* Checkbox label styles */
+.booking-management-container label.checkbox-label {
+  color: #000000;
+  font-size: 1.3rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Table styles */
+.booking-management-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.booking-management-table th,
+.booking-management-table td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Title styles */
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.title span {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  width: 70%;
+  line-height: 1.5;
+}
+
+/* Text color styles */
+.text-gray-500 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.text-red-500 {
+  color: #f56565;
+}
+
+/* Responsive styles */
+@media (max-width: 500px) {
+  .booking-management-container {
+    padding: 30px;
+  }
+
+  .title h2 {
+    font-size: 2rem;
+  }
+
+  .title span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking-management-container {
+    padding: 20px;
+  }
+
+  .title h2 {
+    font-size: 1.5rem;
+  }
+
+  .title span {
+    font-size: 0.9rem;
+  }
+}

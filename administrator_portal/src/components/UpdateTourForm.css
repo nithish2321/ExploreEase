@@ -1,0 +1,151 @@
+.update-tour-form-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    max-width: 500px;
+    margin-left: 20px; /* Adjusted margin */
+  }
+  
+  .update-tour-form-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .update-tour-form-container input,
+  .update-tour-form-container button,
+  .update-tour-form-container select {
+    background: rgba(223, 230, 232, 0.082);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    width: calc(100% - 40px); /* Adjusted width */
+    display: block; /* Display as block element */
+    outline: none;
+    color: #070707;
+    transition: all 0.3s ease;
+    font-size: 1.3rem;
+  }
+
+  .update-tour-form-container textarea{
+    background: rgba(223, 230, 232, 0.082);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    width: calc(100% - 40px); /* Adjusted width */
+    display: block; /* Display as block element */
+    outline: none;
+    color: #070707;
+    transition: all 0.3s ease;
+    font-size: 1.3rem;
+    height: 100px;
+  }
+  
+  .update-tour-form-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .update-tour-form-container input::placeholder,
+  .update-tour-form-container textarea::placeholder {
+    color: rgba(3, 3, 3, 0.5);
+  }
+  
+  .update-tour-form-container input:focus,
+  .update-tour-form-container textarea:focus,
+  .update-tour-form-container select:focus {
+    background: rgba(255, 255, 255, 0.15);
+    border: 2px solid #38a3a5;
+  }
+  
+  .update-tour-form-container button,
+  .update-tour-form-container select {
+    background: linear-gradient(90deg, #4fb4e3, #81caf1);
+    color: #000000;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+  }
+  
+  .update-tour-form-container button:hover,
+  .update-tour-form-container select:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(51, 46, 46, 0.306);
+  }
+  
+  .update-tour-form-container button:active,
+  .update-tour-form-container select:active {
+    transform: scale(0.95);
+  }
+  
+  .update-tour-form-container input[type="checkbox"] {
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+  
+  .update-tour-form-container label.checkbox-label {
+    color: #000000;
+    font-size: 1.3rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .title h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .title span {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    width: 70%;
+    line-height: 1.5;
+  }
+  
+  .text-gray-500 {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .text-red-500 {
+    color: #f56565;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 500px) {
+    .update-tour-form-container {
+        padding: 30px;
+    }
+  
+    .title h2 {
+        font-size: 2rem;
+    }
+  
+    .title span {
+        font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .update-tour-form-container {
+        padding: 20px;
+    }
+  
+    .title h2 {
+        font-size: 1.5rem;
+    }
+  
+    .title span {
+        font-size: 0.9rem;
+    }
+  }
+  

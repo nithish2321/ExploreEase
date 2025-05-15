@@ -48,6 +48,7 @@ We used react to make our frontend more Responsible.
 
 All together I have done the MERN Stack project.
 
-The source code of this project is uploaded in this google drive link.
+
+
 
 
